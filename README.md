@@ -38,7 +38,7 @@ Answer: 7
 ## 4. Which of the following are true? State all that apply.
 
 ```swift
-17 % 4 == 1 TRUE
+17 % 4 == 1 FALSE
 
 25 % 4 != 1 - TRUE
 
