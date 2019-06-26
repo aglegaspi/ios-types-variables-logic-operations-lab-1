@@ -56,13 +56,13 @@ let numOne = 4.0
 let numTwo = 4.0
 let a = numOne == numTwo
 ```
-b) TRUE
+b) FALSE
 ```swift
 let numThree = 24/5
 let numFour = 24.0/5.0
 let b = numThree == numFour
 ```
-c) TRUE
+c) FALSE
 ```swift
 let numFive = 24%5
 let numSix = 24.0%5.0
