@@ -10,8 +10,9 @@
 1. Paste a link to of your Fork on Canvas and submit
 
 ## 1. Which data type would be the best to use for recording the total balance of an online shopping cart?
-
-// your answer here
+```
+Answer: Double
+```
 
 ***
 ## 2. Which of the following variable declarations is **incorrect**?
@@ -30,20 +31,20 @@ let grade: Char = "a" <-- THIS IS INCORRECT
 ## 3. Simplify the following using a calculator:
 
 1 + 4 * 2 / 2 + 2 
-
+```
 Answer: 7
-
+```
 ***
 ## 4. Which of the following are true? State all that apply.
 
 ```swift
 17 % 4 == 1 TRUE
 
-25 % 4 != 1 - FALSE
+25 % 4 != 1 - TRUE
 
-81 % 9 != 840 % 2 - FALSE
+81 % 9 != 840 % 2 - TRUE
 
-(14 % 2 < 4) || (243 % 13 > 2) || (52 % 3 > 5) - FALSE
+(14 % 2 < 4) || (243 % 13 > 2) || (52 % 3 > 5) - TRUE
 ```
 
 ***
@@ -55,19 +56,19 @@ let numOne = 4.0
 let numTwo = 4.0
 let a = numOne == numTwo
 ```
-b) FALSE
+b) TRUE
 ```swift
 let numThree = 24/5
 let numFour = 24.0/5.0
 let b = numThree == numFour
 ```
-c) FALSE
+c) TRUE
 ```swift
 let numFive = 24%5
 let numSix = 24.0%5.0
 let c = numFive == numSix
 ```
-d) FALSE
+d) TRUE
 ```swift
 let numSeven = 4.0 + 1.2
 let numEight = 5.0 + .2
