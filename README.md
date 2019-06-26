@@ -23,13 +23,15 @@ let version: Double = 3.0
 
 let emotion: String = ":)"
 
-let grade: Char = "a"
+let grade: Char = "a" <-- THIS IS INCORRECT
 ```
 
 ***
 ## 3. Simplify the following using a calculator:
 
-1 + 4 * 2 / 2 + 2
+1 + 4 * 2 / 2 + 2 
+
+Answer: 7
 
 ***
 ## 4. Which of the following are true? State all that apply.
@@ -41,31 +43,31 @@ let grade: Char = "a"
 
 81 % 9 != 840 % 2
 
-(14 % 2 < 4) || (243 % 13 > 2) || (52 % 3 > 5)
+(14 % 2 < 4) || (243 % 13 > 2) || (52 % 3 > 5) - FALSE
 ```
 
 ***
 ## 5. Which of the follow is true?
 
-a)
+a) TRUE
 ```swift
 let numOne = 4.0
 let numTwo = 4.0
 let a = numOne == numTwo
 ```
-b)
+b) FALSE
 ```swift
 let numThree = 24/5
 let numFour = 24.0/5.0
 let b = numThree == numFour
 ```
-c)
+c) FALSE
 ```swift
 let numFive = 24%5
 let numSix = 24.0%5.0
 let c = numFive == numSix
 ```
-d)
+d) FALSE
 ```swift
 let numSeven = 4.0 + 1.2
 let numEight = 5.0 + .2
@@ -82,4 +84,6 @@ i += 3
 i *= 2
 i %= 3
 i -= 3
+
+Answer: i = -2
 ```
